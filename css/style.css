@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.expandable {
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    
+}
+
+.expandable {
+    transition: width 0.5s ease; /* Плавный переход ширины за 0.5 секунды */
+}
